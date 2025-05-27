@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+ikeda:
+  registryServer:
+    username: registryserver
+    password: 123456GHJKLMN
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: 'http://${ikeda.registryServer.username}:${ikeda.registryServer.password}@localhost:8761/eureka'
