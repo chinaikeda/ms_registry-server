@@ -12,6 +12,3 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: ${EUREKA_URL}
-  instance:
-    hostname: ${APP_DOMAIN_NAME}
-    non-secure-port: 80

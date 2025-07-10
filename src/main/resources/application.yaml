@@ -2,4 +2,4 @@ spring:
   profiles:
     active: dev
   application:
-    name: ikeda-registry-server
+    name: ikeda-registry-server-ms
